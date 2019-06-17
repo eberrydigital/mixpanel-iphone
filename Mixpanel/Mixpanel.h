@@ -64,6 +64,9 @@ extern NSString *const MPNotificationTypeTakeover;
  href="https://mixpanel.com/docs/integration-libraries/iphone">Mixpanel iPhone
  Library Guide</a>.
  */
+
+#define MIXPANEL_NO_NOTIFICATION_AB_TEST_SUPPORT 1
+
 @interface Mixpanel : NSObject
 
 #pragma mark Properties
